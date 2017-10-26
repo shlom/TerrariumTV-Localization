@@ -44,8 +44,8 @@
     <string name="ready_to_play_toast">Video aloitetaan pian…</string>
     <string name="searching_media">Haetaan…</string>
     <string name="subtitle_language">Tekstityksen kieli: </string>
-    <string name="subtitle_download_failed">Tekstityksen lataus epäonnistui… Yritä toista tekstitystä…</string>
-    <string name="subtitle_extract_failed">Tekstityksen purkaminen epäonnistui… Yritä toista tekstitystä…</string>
+    <string name="subtitle_download_failed">Tekstityksen lataus epäonnistui… Kokeile toista tekstitystä…</string>
+    <string name="subtitle_extract_failed">Tekstityksen purkaminen epäonnistui… Kokeile toista tekstitystä…</string>
     <string name="permission_grant_toast">Paina \"Salli\" myöntääksesi käyttöoikeudet ja yritä uudelleen</string>
     <string name="sorry">Pahoittelut…</string>
     <string name="cant_be_opened_by_other_players">Tätä lähdettä ei voi avata tai katsoa muilla videosoittimilla. Pahoittelut vaivasta.</string>
@@ -116,7 +116,7 @@
     <string name="list_movie_christmas">Joulu</string>
     <string name="list_movie_marvels">Marvel</string>
     <string name="list_movie_disney_classics">Disney-klassikot</string>
-    
+
     <string name="filter_year">Vuosi-suodatin</string>
 
     <string name="pref_general">Yleiset</string>
@@ -159,7 +159,7 @@
     <string name="pref_show_menu_source">Näytä valikko yhdellä painalluksella lähdelistassa</string>
     <string name="pref_poster_size">Mediajulisteen koko</string>
     <string name="pref_parallel_loading_sources">Rinnakkaisten lähteiden lataaminen</string>
-    <string name="pref_parallel_loading_sources_desc">Vahvasti suositeltua sallimaan. Nopeuttaa lähteiden latausnopeutta 5x. Voi kuitenkin aiheuttaa pakkosulkeutumisia tai kaatumisia joillakin matalatehoisilla laitteilla.</string>
+    <string name="pref_parallel_loading_sources_desc">Vahvasti suositeltua sallimaan. Nopeuttaa lähteiden latausta 5x. Voi kuitenkin aiheuttaa pakkosulkeutumisia tai kaatumisia joillakin matalatehoisilla laitteilla.</string>
     <string name="pref_simple_scrolling_on_tv">Yksinkertainen skrollaus Android TV:ssä</string>
     <string name="simple_scrolling_is_enabled">Yksinkertainen skrollaus on käytössä. Voit ottaa sen pois käytöstä asetuksissa.</string>
     <string name="pref_choose_default_nav">Valitse aloitussivu…</string>
@@ -194,8 +194,8 @@
     <string name="failed_to_backup">Varmuuskopiointi epäonnistui</string>
     <string name="failed_to_restore">Palautus epäonnistui</string>
     <string name="pref_resolve_all_links_immediately">Selvitä kaikki linkit automaattisesti</string>
-    <string name="pref_resolve_all_links_immediately_desc">Selvitä kaikki osoitteet suoratoistolinkkeihin automaattisesti. Poiskytkettynä Terrarium TV selvittää vain käyttäjän valitseman linkin. (Kytke pois päältä, kun sovellus lagaa)</string>
-    <string name="pref_auto_resolve_hd_links_only">Selvitä vain HD-linkit linkit automaattisesti</string>
+    <string name="pref_resolve_all_links_immediately_desc">Selvitä kaikki osoitteet suoratoistolinkkeihin automaattisesti. Poiskytkettynä Terrarium TV selvittää vain käyttäjän valitseman linkin. (Kytke pois päältä, jos sovellus lagaa)</string>
+    <string name="pref_auto_resolve_hd_links_only">Selvitä vain HD-linkit automaattisesti</string>
     <string name="pref_sources_list_refresh_interval">Lähdelistan virkistysväli (sekunteina)</string>
     <string name="pref_sources_list_refresh_interval_msg">Jos sovellus jumiutuu jatkuvasti linkkejä ladattaessa, kasvata arvoa.</string>
     <string name="restart_to_see_the_difference">Ota muutokset käyttöön käynnistämällä Terrarium TV uudelleen.</string>
@@ -267,7 +267,7 @@
 
     <string name="tv_shows">TV-sarjat</string>
     <string name="movies">Elokuvat</string>
-    <string name="downloads">lataukset</string>
+    <string name="downloads">Lataukset</string>
     <string name="tools">Työkalut</string>
 
     <string name="play_trailer">Katso traileri</string>
@@ -306,7 +306,7 @@
 
     <string name="android_download_manager_is_disabled">Androidin lataustenhallinta on pois käytöstä</string>
     <string name="android_download_manager_is_disabled_msg">Jotta voit ladata tiedostoja, sinun täytyy sallia Androidin sisäinen lataustenhallinta ensin. Paina "OK" jatkaaksesi.</string>
-    
+
     <string name="like_us_on_facebook_title">Tykkää meistä Facebookissa!</string>
     <string name="like_us_on_facebook_message">Onko sovellus mielestäsi hyödyllinen? Tykkää meistä Facebookissa osoittaaksesi tukesi!</string>
     <string name="like_us_on_facebook_yes">Tykkää!</string>
@@ -329,7 +329,7 @@
     <string name="ttv_set_episode_as_watched_desc">Paina tätä laatikkoa merkitäksesi tämän jakson katsotuksi. Paina uudelleen poistaaksesi merkinnän. Yksinkertaista, fiksua ja nopeaa!</string>
     <string name="ttv_watch_now">Katso nyt!</string>
     <string name="ttv_watch_now_desc">Paina play-painiketta ja katso ilmaiseksi HD-laadulla!</string>
-    
+
     <string name="customactivityoncrash_error_activity_error_occurred_explanation">Odottamaton virhe tapahtui ja se raportoitiin kehittäjälle.\nPahoittelut vaivasta.\n\nJos sovellus jatkaa kaatumista, muokkaa \"Suorituskyky\"-asetuksia \"Asetukset\"-sivulla.</string>
     <string name="customactivityoncrash_error_activity_unknown_exception">Tuntematon virhe</string>
     <string name="customactivityoncrash_error_activity_restart_app">Käynnistä Terrarium TV uudelleen</string>
