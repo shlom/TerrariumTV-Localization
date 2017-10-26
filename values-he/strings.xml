@@ -36,6 +36,7 @@
 
     <string name="season">עונה %1$d</string>
     <string name="episode">פרק %1$d</string>
+    <string name="season_episode">%1$s - עונה %2$  d פרק %3$d</string>
     <string name="season_episode">%1$s - Season %2$d Episode %3$d</string>
     <string name="season_special">Season Special</string>
     <string name="search_result_of">תוצאות חיפוש עבור \"%s\"</string>
@@ -61,7 +62,7 @@
     <string name="mxplayer_unable_to_start">MX Player Unable To Start</string>
     <string name="mxplayer_unable_to_start_message">MX Player is unable to start. Please re-install it and try again.</string>
 
-    <string name="vlc_player_not_installed">VLC Player Not Installed</string>
+    <string name="vlc_player_not_installed">נגן VLC לא מותקן</string>
     <string name="vlc_player_not_installed_message">VLC Player is not installed on your device. Terrarium TV needs VLC Player to play media. Click "Install" to install VLC Player.</string>
     <string name="vlc_player_unable_to_start">VLC Player Unable To Start</string>
     <string name="vlc_player_unable_to_start_message">VLC Player is unable to start. Please re-install it and try again.</string>
@@ -110,7 +111,7 @@
     <string name="genre_movie_documentary">תיעודי</string>
     <string name="genre_movie_music">מוזיקה</string>
 
-    <string name="list_tv_netflix">Netflix</string>
+    <string name="list_tv_netflix">נטפליקס</string>
 
     <string name="list_movie_oscars_winners">זוכים באוסקר</string>
     <string name="list_movie_christmas">חג מולד</string>
@@ -127,9 +128,9 @@
     <string name="pref_sources_and_resolvers">ספקים ומפענחים</string>
     <string name="pref_subtitle">Subtitles Language of OpenSubtitles and Subscene</string>
     <string name="pref_subtitle_chin">Subtitles Language of SubHD, Makedie and Zimuku</string>
-    <string name="pref_chromecast_subtitles">Chromecast Subtitles</string>
+    <string name="pref_chromecast_subtitles">כתוביות כרומקאסט</string>
     <string name="pref_backup_and_restore">גיבוי ושחזור</string>
-    <string name="pref_others">Others</string>
+    <string name="pref_others">אחרים</string>
 
     <string name="pref_sub_down_path">נתיב הורדת כתוביות</string>
     <string name="pref_sub_down_path_des">כתוביות יורדו וישמרו בנתיב הזה.</string>
@@ -141,7 +142,7 @@
     <string name="pref_filter_out_non_english_shows">סנן תוכניות לא באנגלית</string>
     <string name="pref_filter_out_dead_sources">סנן מקורות מתים</string>
     <string name="pref_filter_out_dead_sources_desc">It will cause extra sources loading time</string>
-    <string name="pref_filter_out_cam_version_links">Filter out CAM version links</string>
+    <string name="pref_filter_out_cam_version_links">סנן מקורות איכות CAM</string>
     <string name="pref_filter_out_cam_version_links_desc">סנן אוטומטית קישורים באיכות נמוכה</string>
     <string name="pref_enable_new_episode_notification">אפשר התראות פרק חדש</string>
     <string name="pref_check_new_episode_frequency">תדירות בדיקה עבור פרקים חדשים(שעות)</string>
@@ -187,8 +188,8 @@
     <string name="pref_restore_favorites">שחזר מועדפים</string>
     <string name="pref_backup_watched_episodes">Backup watched episode records</string>
     <string name="pref_restore_watched_episodes">Restore watched episode records</string>
-    <string name="backup_path">Backup to \"%s\"</string>
-    <string name="restore_path">Restore from \"%s\"</string>
+    <string name="backup_path">גבה ל: \"%s\"</string>
+    <string name="restore_path">שחזר מ: \"%s\"</string>
     <string name="backup_success">גובה בהצלחה!</string>
     <string name="restore_success">שוחזר בהצלחה!</string>
     <string name="failed_to_backup">נכשל בגיבוי</string>
@@ -214,17 +215,17 @@
     <string name="no_player_was_found">לא נמצא נגן וידאו</string>
     <string name="choose_external_download_manager">Choose an external download manager…</string>
     <string name="no_external_download_manager_was_found">No external download manager was found. Please download them from Play Store or use Android Internal Download Manager</string>
-    <string name="download_started">Download started…</string>
+    <string name="download_started">הורדה החלה...</string>
     <string name="download_path_error">Download path must be in internal storage. Please choose another path.</string>
     <string name="copied_link">Stream link copied!</string>
     <string name="link_must_be_played_in_app">Sorry… This link can only be played in Terrarium TV…</string>
     <string name="video_player_crashed_unexpectedly">Player crashed unexpectedly. Please try to use another video player to play the video.</string>
-    <string name="choose_subtitles_file">Choose a subtitle file…</string>
+    <string name="choose_subtitles_file">בחר קובץ כתוביות...</string>
 
-    <string name="update_title">New version found : %s</string>
-    <string name="update_message">Version %s : </string>
+    <string name="update_title">נמצא גרסה חדשה:  %s</string>
+    <string name="update_message">גרסה: %s </string>
     <string name="update_button">עדכון</string>
-    <string name="update_downloading">Downloading update %s</string>
+    <string name="update_downloading">מוריד עדכון %s</string>
     <string name="update_failed">עדכון נכשל או הופסק</string>
 
     <string name="subtitle_name">שם כתובית : </string>
@@ -244,26 +245,26 @@
     <string name="error">שגיאה לא ידוע, אנא נסה שנית</string>
     <string name="please_wait">אנא המתן...</string>
 
-    <string name="recaptcha_verify">You need to verify a reCaptcha to get sources from %s</string>
+    <string name="recaptcha_verify">אתה צריך לאמת קפצ'ה בכדי לקבל מקורות מ %s</string>
     <string name="verify">אמת</string>
 
     <string name="size_large">גדול</string>
     <string name="size_normal">בינוני</string>
     <string name="size_small">קטן</string>
 
-    <string name="show_details_overview">OVERVIEW</string>
-    <string name="show_details_season">SEASON</string>
-    <string name="media_suggestion">See Also</string>
+    <string name="show_details_overview">מבט על</string>
+    <string name="show_details_season">עונה</string>
+    <string name="media_suggestion">ראה גם</string>
     <string name="no_synopsis">No synopsis</string>
     <string name="synopsis_is_hidden">Synopsis is hidden</string>
     <string name="loading_ratings">Loading ratings…</string>
     <string name="no_ratings">No Ratings</string>
-    <string name="meta_in_production">In Production</string>
-    <string name="meta_returning_series">Returning Series</string>
-    <string name="meta_ended">Ended</string>
+    <string name="meta_in_production">בהפקה</string>
+    <string name="meta_returning_series">סדרה חוזרת</string>
+    <string name="meta_ended">הסתיים</string>
 
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">פתח מגירת ניווט</string>
+    <string name="navigation_drawer_close">סגור מגירת ניווט</string>
 
     <string name="tv_shows">סדרות טלויזיה</string>
     <string name="movies">סרטים</string>
@@ -283,42 +284,43 @@
     <string name="choose_a_correct_date">נא לבחור תאריך נכון!</string>
     <string name="cache_cleared">מטמון נוקה!</string>
 
-    <string name="new_episode">New episode: %s</string>
-    <string name="default_value">Default: %s</string>
+    <string name="new_episode">פרק חדש: %s</string>
+    <string name="default_value">ברירת מחדל: %s</string>
     <string name="value_must_be_positive">ערך חייב להיות חיובי</string>
 
     <string name="try_it">נסה זאת!</string>
-    <string name="click_play_button_on_your_rc">Press the "Play" button or long press the "Enter" button on your remote control to play immediately!</string>
+    <string name="click_play_button_on_your_rc">לחץ על כפתור "נגן" או לחיצה ארוכה על "אנטר" בשלט לנגן מידית</string>
     <string name="press_back_again_to_exit">לחץ "חזור" שוב בכדי לצאת</string>
 
-    <string name="in_progress">בתהליך</string>
+    <string name="in_progress">בהורדה</string>
     <string name="finished">הסתיים</string>
     <string name="file_not_found">קובץ לא נמצא!</string>
 
     <string name="resolving">מפענח</string>
     <string name="resolving_links">מפענח קישורים...</string>
-    <string name="failed_to_resolve_link">Failed to resolve this link. Please try another link instead.</string>
-    <string name="no_streamlink_is_available">Sorry… No stream link is available now…</string>
-    <string name="link_cant_be_resolved">Sorry… This link can\'t be resolved…</string>
+    <string name="failed_to_resolve_link">נכשל בפתיחת הלינק, אנא נסה קישור אחר במקום</string>
+    <string name="no_streamlink_is_available">מצטערים... אין קישור זמין להזרמה</string>
+    <string name="link_cant_be_resolved">מצטערים הלינק חא ניתן לפתיחה</string>
 
-    <string name="low_end_device_detected">Low-end device detected</string>
-    <string name="resolve_all_links_immediately_disabled">It seems that you are using Terrarium TV on a low-end device. Due to performance enhancement and improving user experience, \"Resolve all links immediately\" and features are disabled by default. You won\'t see file size for some links now but the app will not crash and lag again. If you want to see the file size of all links again, you can go to the \"Settings\" page and enable those options</string>
+    <string name="low_end_device_detected">נמצא מכשיר קצה נמוך</string>
+    <string name="resolve_all_links_immediately_disabled">זה נראה שאתם משתמשים עם "Terrarium TV" במכשיר קצה נמוך. בשל שיפור בביצועים ושיפור חוויית המשתמש, </string>
+    <string name="resolve_all_links_immediately_disabled"> \"Resolve all links immediately\" and features are disabled by default. You won\'t see file size for some links now but the app will not crash and lag again. If you want to see the file size of all links again, you can go to the \"Settings\" page and enable those options</string>
 
-    <string name="android_download_manager_is_disabled">Android Download Manager is disabled</string>
-    <string name="android_download_manager_is_disabled_msg">In order to download files, you need to enable the Internal Android Download Manager first. Click "OK" to proceed.</string>
+    <string name="android_download_manager_is_disabled">מנהל ההורדות של אנדרואיד מכובה</string>
+    <string name="android_download_manager_is_disabled_msg">בכדי להוריד קבצים, יש להפעיל את מנהל ההורדות של אנדרואי קודם. לחץ "OK" להמשיך.</string>
 
-    <string name="like_us_on_facebook_title">Like us on Facebook!</string>
-    <string name="like_us_on_facebook_message">Do you think this app is useful? Like us on Facebook to show your support!</string>
-    <string name="like_us_on_facebook_yes">Like!</string>
+    <string name="like_us_on_facebook_title">תעשו לנו לייק!</string>
+    <string name="like_us_on_facebook_message">אתם אוהבים את האפליקציה? תעשו לנו לייק בפייסבוק להראות את תמיכתכם</string>
+    <string name="like_us_on_facebook_yes">לייק!</string>
     <string name="dont_ask_again_checkbox">אל תשאל שוב</string>
 
     <string name="media_route_menu_title">נגן...</string>
-    <string name="chromecast_available">Chromecast available</string>
-    <string name="chromecast_not_connected">Chromecast not connected</string>
-    <string name="chromecast_resume_failed">Resume video playback failed</string>
+    <string name="chromecast_available">כרומקאסט זמין</string>
+    <string name="chromecast_not_connected">כרוםקאסט לא מחובר</string>
+    <string name="chromecast_resume_failed">המשך ניגון נכשל</string>
     <string name="chromecast_failed_to_play">נכשל בניגון וידאו</string>
-    <string name="video_cant_be_casted">This video can\'t be casted to Chromecast</string>
-    <string name="google_play_services_not_installed">Google Play Services is not installed</string>
+    <string name="video_cant_be_casted">וידאו זה לא יכול להיות משודר לכרומקאסט</string>
+    <string name="google_play_services_not_installed">גוגל פלי לא מותקן</string>
     <string name="cant_cast_on_tv">Can\'t cast to Chromecast on Android TV devices</string>
 
     <string name="ttv_switch_season">החלף עונה בקליק אחד</string>
@@ -328,18 +330,18 @@
     <string name="ttv_set_episode_as_watched">Set episode as watched</string>
     <string name="ttv_set_episode_as_watched_desc">Click this box to set this episode as watched. Click again to set it as unwatched. Simple, smart and fast!</string>
     <string name="ttv_watch_now">צפה עכשיו!</string>
-    <string name="ttv_watch_now_desc">Click this play button and watch in HD for free!</string>
+    <string name="ttv_watch_now_desc">לחץ על כפתור הניגון הזה וצפה ב HD חינם!</string>
 
     <string name="customactivityoncrash_error_activity_error_occurred_explanation">An unexpected error occurred and has been reported to the developer.\nSorry for the inconvenience.\n\nIf the app keeps crashing then please adjust \"Performance\" settings in the \"Settings\" page.</string>
-    <string name="customactivityoncrash_error_activity_unknown_exception">Unknown exception</string>
-    <string name="customactivityoncrash_error_activity_restart_app">Restart Terrarium TV</string>
+    <string name="customactivityoncrash_error_activity_unknown_exception">שגיא לא ידועה</string>
+    <string name="customactivityoncrash_error_activity_restart_app">הפעל מחדש את Terrarium TV</string>
     <string name="customactivityoncrash_error_activity_close_app">סגור Terrarium TV </string>
     <string name="customactivityoncrash_error_activity_error_details">פרטי שגיאה</string>
     <string name="customactivityoncrash_error_activity_error_details_title">פרטי שגיאה</string>
     <string name="customactivityoncrash_error_activity_error_details_close">סגור</string>
     <string name="customactivityoncrash_error_activity_error_details_copy">העתק</string>
     <string name="customactivityoncrash_error_activity_error_details_copied">הועתק</string>
-    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">Error information</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">מידע על השגיעה</string>
 
     <!-- DO NOT EDIT THE STRINGS BELOW -->
     <string name="app_name" translatable="false">Terrarium TV</string>
