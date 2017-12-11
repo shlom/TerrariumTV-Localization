@@ -126,6 +126,7 @@
     <string name="pref_new_movie_release_notification">התראת סרט חדש</string>
     <string name="pref_ui">ממשק משתמש</string>
     <string name="pref_sources_and_resolvers">ספקים ומפענחים</string>
+    <string name="pref_subtitle">שפת כתוביות עבור OpenSubtitle ו Subscene</string>
     <string name="pref_subtitle">Subtitles Language of OpenSubtitles and Subscene</string>
     <string name="pref_subtitle_chin">Subtitles Language of SubHD, Makedie and Zimuku</string>
     <string name="pref_chromecast_subtitles">כתוביות כרומקאסט</string>
